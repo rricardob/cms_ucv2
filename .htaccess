@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+#Rutas Administradores
+RewriteRule ^public/posts$ public/index.php?section=posts [QSA]
+RewriteRule ^public/main$ public/index.php?section=main [QSA]
